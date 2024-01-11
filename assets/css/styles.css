@@ -23,6 +23,7 @@ section{
 
 .section-2 {
 	background-color: #052D3D;
+	display: flex;
 }
 
 .section-3 {
@@ -59,12 +60,20 @@ a.nav-item:hover {
 
 .project-figure {
 	margin: 0 auto 1rem auto;
-	max-height: 256px;
-	max-width: 256px;
+	max-height: 556px;
+	max-width: 556px;
+}
+
+.titleis-3 {
+	text-align: center;
+	font-size: 36px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .project-text {
-	text-align: justify;
+	text-align: center;
+	font-size: 24px;
+	font-style: italic;
 }
 
 .box {
