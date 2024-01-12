@@ -1,7 +1,7 @@
 html, body{
 	font-size:16px;
 	color: #dfdfdf;
-	background-color: #063647; 
+	background-color: #f7f9fa; 
 }
 
 a {
@@ -18,7 +18,7 @@ section{
 }
 
 .section-1 {
-	background: #063647;
+	background: #f7f7f7;
 }
 
 .section-2 {
@@ -39,19 +39,20 @@ section{
 	display: flex;
 	align-items: center;
 	justify-content: right;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a.nav-item {
-	color: #dfdfdf;
+	color: #000000;
 }
 
 a.nav-item:hover {
-	color: #fff;
+	color: #000000;
 }
 
 .avatar{
 	height:200px;
-	border-radius: 50%;
+	border-radius: 0%;
 }
 
 .intro-description{
@@ -98,6 +99,9 @@ a.nav-item:hover {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 18px;
+	font-weight: bolder;
+	color: #000000;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .void-background {
@@ -114,7 +118,7 @@ a.nav-item:hover {
 	}
 
 	.nav-toggle span {
-		background-color: #dfdfdf;
+		background-color: #ffffff;
 	}
 
 	.nav-toggle span:hover {
