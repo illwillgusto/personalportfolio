@@ -35,6 +35,12 @@ section{
 	padding: 0.2rem;
 }
 
+.nav-right {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
 a.nav-item {
 	color: #dfdfdf;
 }
@@ -89,8 +95,9 @@ a.nav-item:hover {
 
 .intro {
 	text-align: justify;
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
+	font-size: 18px;
 }
 
 .void-background {
