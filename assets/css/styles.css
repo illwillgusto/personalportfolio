@@ -22,7 +22,7 @@ section{
 }
 
 .section-2 {
-	background-color: #052D3D;
+	background-color: #e3dcdc;
 	display: flex;
 }
 
@@ -74,13 +74,17 @@ a.nav-item:hover {
 .titleis-3 {
 	text-align: center;
 	font-size: 36px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #000000;
+	
 }
 
 .project-text {
 	text-align: center;
 	font-size: 18px;
 	font-style: italic;
+	color: #000000;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .box {
