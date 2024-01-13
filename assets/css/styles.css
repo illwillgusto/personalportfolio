@@ -5,7 +5,10 @@ html, body{
 }
 
 a {
-  color: #00d1b2;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 a:hover {
@@ -27,12 +30,20 @@ section{
 }
 
 .section-3 {
-	background-color: #0E282E;
+	background-color: #f6f8f8;
 }
 
 .section-4 {
-	background-color: #063647;
 	padding: 0.2rem;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f6f6;
 }
 
 .nav-right {
@@ -60,9 +71,10 @@ a.nav-item:hover {
 }
 
 .social-container img{
-	max-width:100%;
+	max-width: 125px;;
 	max-height:175px;
 	margin-bottom:15px;
+	gap: 8px;
 }
 
 .project-figure {
