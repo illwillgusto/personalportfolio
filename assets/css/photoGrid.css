@@ -50,4 +50,38 @@ a {
 	padding-bottom: 3rem;
 }
 
+.nav-right {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a.nav-item {
+	color: #000000;
+}
+
+a.nav-item:hover {
+	color: #f70808;
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #f7f9fa;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #ffffff;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+}
+
 	
