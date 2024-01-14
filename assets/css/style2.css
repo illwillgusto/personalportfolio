@@ -22,8 +22,11 @@ a:hover {
 	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	color: #000000;
 	font-style: italic;
-	
-}
+	padding: 28px;
+	}
+.titleis-3:hover {
+	color: coral;
+}	
 
 .footer {
 	padding: 0.2rem;
@@ -71,4 +74,5 @@ a.nav-item:hover {
 	}
 
 }
+
 
