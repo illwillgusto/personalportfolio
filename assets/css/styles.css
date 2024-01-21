@@ -118,6 +118,10 @@ a.nav-item:hover {
 	text-shadow: 0px 1px 0px white;
 }
 
+.titleis-3DP :hover {
+	color: #03fc13;
+}
+
 .project-text {
 	text-align: center;
 	font-size: 18px;
