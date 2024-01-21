@@ -2,6 +2,7 @@ html, body{
 	font-size:16px;
 	color: #dfdfdf;
 	background-color: #f7f9fa; 
+	flex-wrap: wrap;
 }
 
 a {
@@ -27,6 +28,11 @@ section{
 
 .section-2 {
 	background-color: #e3dcdc;
+	display: flex;
+}
+
+.section2-1 {
+	background-color: #ffffff;
 	display: flex;
 }
 
@@ -154,4 +160,8 @@ a.nav-item:hover {
 		background-color: #fff;
 	}
 
+}
+
+.nav-toggle.is-active {
+	display: block;
 }

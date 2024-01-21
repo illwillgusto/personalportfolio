@@ -26,7 +26,12 @@ a:hover {
 	}
 .titleis-3:hover {
 	color: coral;
-}	
+}
+
+.avatar{
+	height:200px;
+	border-radius: 0%;
+}
 
 .footer {
 	padding: 0.2rem;

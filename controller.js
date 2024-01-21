@@ -1,3 +1,4 @@
+if (typeof window !== 'undefined')
 window.onload = () => {
   const navMenu = document.querySelector('.nav-menu');
   const navItems = document.querySelectorAll('.nav-item');
