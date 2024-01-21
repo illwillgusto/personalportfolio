@@ -33,17 +33,15 @@ section{
 .section2-1 {
 	background-color: #ffffff;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
-.section-2-5 {
-	background-color: orangered;
-	display: flex;
-}
-
 
 .section-3 {
 	background-color: #f6f8f8;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .footer {
