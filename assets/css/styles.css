@@ -21,9 +21,6 @@ section{
 	padding-bottom: 3rem;
 }
 
-.section1 {
-	background: #f7f7f7;
-}
 
 .section2 {
 	background-color: #ff4800;
@@ -153,7 +150,6 @@ a.nav-item:hover {
 	margin: 0 auto;
 	font-weight: bolder;
 	color: #000000;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .void-background {
