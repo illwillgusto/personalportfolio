@@ -10,3 +10,17 @@ window.onload = () => {
   hamburger.addEventListener('click', () => toggle(navMenu, 'is-active'));
   Array.from(navItems).forEach(e => e.addEventListener('click', toggleNav));
 }
+
+const time = new Date().getHours();
+					let greeting;
+					
+					if (time < 11) {
+						greeting = "Good Morning, from"
+					}	else if (time < 12) {
+						greeting = "Good Afternoon, from"
+					}	else {
+						greeting = "Good Evening, from"
+					}
+					
+					document.getElementById("speak").innerHTML = greeting;
+					
