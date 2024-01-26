@@ -14,9 +14,9 @@ window.onload = () => {
 const time = new Date().getHours();
 					let greeting;
 					
-					if (time < 11) {
+					if (time < 12) {
 						greeting = "Good Morning, from"
-					}	else if (time < 12) {
+					}	else if (time > 12 && time < 19) {
 						greeting = "Good Afternoon, from"
 					}	else {
 						greeting = "Good Evening, from"
