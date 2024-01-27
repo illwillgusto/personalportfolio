@@ -21,16 +21,16 @@ section{
 	padding-bottom: 3rem;
 }
 
+.section1 {
+	background-color: #f4fafe;
+	
+}
 
 .section2 {
 	background-color: #ff4800;
 	display: flex;
 }
 
-.section1 {
-	background-color: #f4fafe;
-	
-}
 
 .section3 {
 	background-color: #f6f8f8;
