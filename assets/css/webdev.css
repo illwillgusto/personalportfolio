@@ -27,7 +27,7 @@ html, body {
 	text-align: center;
 	margin-top: 0;
 	font-weight: 300;
-	text-shadow: #04ff43;
+	text-shadow: 0 2px 5px #04ff43;
 }
 
 .sub-heading {
@@ -55,7 +55,7 @@ html, body {
 
 .entire-content {
 	margin: auto;
-	width: 190px;
+	width: 200px;
 	perspective: 1000px;
 	position: relative;
 	padding-top: 80px;
@@ -122,6 +122,15 @@ html, body {
 .content-carrousel img:hover {
 	transform: scale(1.2);
 	transition: all 300ms;
+}
+
+.description {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	font-weight: bolder;
+	color: #ffffff;
+	text-shadow: 0 2px 5px #0dff00;
 }
 
 @keyframes rotar {
