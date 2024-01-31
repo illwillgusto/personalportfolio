@@ -40,8 +40,9 @@ section{
 	height: auto;
 	
 }
+
 .section3 {
-	background-color: #ff4800;
+	background-color: #f4fafe;
 }
 
 .footer {
@@ -103,13 +104,6 @@ a.nav-item:hover {
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-
-
-.project-figure {
-	margin: 0 auto 1rem auto;
-	max-height: 556px;
-	max-width: 556px;
-}
 
 .titleis-3 {
 	text-align: center;
