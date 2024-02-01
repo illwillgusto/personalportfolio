@@ -2,10 +2,6 @@
     --background: #f8f8ff;
 }
 
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
 
 body {
     background-color: var(--background);
@@ -13,6 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .nav-right {
@@ -26,6 +23,11 @@ a.nav-item {
 
 a.nav-item:hover {
 	color: #03fc13;
+}
+
+section {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .gallery {
