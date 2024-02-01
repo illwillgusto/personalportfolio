@@ -1,7 +1,6 @@
 /* 3D Slideshow */ 
 * {
-	margin: 0;
-	padding: 0;
+
 }
 
 html, body {
@@ -10,6 +9,7 @@ html, body {
 	overflow-y: auto;
 	background-color: #000000;
 }
+
 a {
     color: rgb(255, 255, 255);
   }
@@ -52,10 +52,13 @@ a {
 } .sub-heading-two {
 	font-size: 15px;
 } 
-
-/*.sub-heading-three {
+.sub-heading-three {
 	font-size: 13px;
-} .sub-heading-four {
+}
+
+/* this slide slots haven't been used yet, the attributes need to remain the same 
+
+.sub-heading-four {
 	font-size: 11px;
 } .sub-heading-five {
 	font-size: 9px;
@@ -103,6 +106,9 @@ a {
 } .content-carrousel figure:nth-child(2) {
 	transform: rotateY(360deg) translateZ(300px); 
 } 
+.content-carrousel figure:nth-child(3) {
+	transform: rotateY(80deg) translateZ(300px); 
+}
 
 /*.content-carrousel figure:nth-child(3) {
 	transform: rotateY(80deg) translateZ(300px); 
@@ -166,7 +172,6 @@ a {
 
 .footer {
 	padding: 0.2rem;
-	position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
