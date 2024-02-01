@@ -26,6 +26,7 @@ a.nav-item:hover {
 a {
     color: rgb(255, 255, 255);
 	text-decoration: none;
+	font-family: 'Silkscreen', sans-serif;
   }
 
   a:visited {
@@ -51,7 +52,7 @@ a {
 }
 
 .slideshow-title {
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: 'Rubik Wet Paint', system-ui;
 	font-size: 62px;
 	color: #ffffff;
 	text-align: center;
@@ -168,6 +169,7 @@ a {
 	color: #ffffff;
 	text-shadow: 0 2px 5px #0dff00;
 	font-size: 24px;
+	font-family: 'Silkscreen', sans-serif;
 }
 
 @keyframes rotar {
