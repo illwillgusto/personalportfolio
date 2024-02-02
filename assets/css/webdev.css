@@ -66,16 +66,15 @@ a {
 	font-size: 18px;
 } .sub-heading-two {
 	font-size: 15px;
-} 
-.sub-heading-three {
+} .sub-heading-three {
 	font-size: 13px;
+} .sub-heading-four {
+	font-size: 11px;
 }
 
 /* this slide slots haven't been used yet, the attributes need to remain the same 
 
-.sub-heading-four {
-	font-size: 11px;
-} .sub-heading-five {
+.sub-heading-five {
 	font-size: 9px;
 } .sub-heading-six {
 	font-size: 7px;
@@ -120,16 +119,13 @@ a {
 	transform: rotateY(180deg) translateZ(300px); 
 } .content-carrousel figure:nth-child(2) {
 	transform: rotateY(360deg) translateZ(300px); 
-} 
-.content-carrousel figure:nth-child(3) {
+} .content-carrousel figure:nth-child(3) {
+	transform: rotateY(80deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(4) {
 	transform: rotateY(80deg) translateZ(300px); 
 }
 
-/*.content-carrousel figure:nth-child(3) {
-	transform: rotateY(80deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(4) {
-	transform: rotateY(120deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(5) {
+/* .content-carrousel figure:nth-child(5) {
 	transform: rotateY(160deg) translateZ(300px); 
 } .content-carrousel figure:nth-child(6) {
 	transform: rotateY(200deg) translateZ(300px); 
