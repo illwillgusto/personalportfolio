@@ -11,6 +11,7 @@ window.onload = () => {
   Array.from(navItems).forEach(e => e.addEventListener('click', toggleNav));
 }
 
+//this code is for executing the opening greeting message
 const time = new Date().getHours();
 					let greeting;
 					
