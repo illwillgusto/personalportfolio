@@ -409,6 +409,7 @@ border-radius: 10px;
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
+  cursor: pointer;
 
 }
 @media (min-width: 1024px) {
