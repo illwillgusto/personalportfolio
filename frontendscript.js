@@ -32,6 +32,31 @@ class Footer extends HTMLElement {
                     My expertise lies in web development, front-end web development, and UI design.</p>
                     <hr style="margin: 20px 0; color: rgb(82, 82, 82); width: 60%;">
                     <span class="contact"><a href="mailto:waltonjrwillie@gmail.com" class="email">
-                        `
+                    <img src="assets/dev imgs/email.png" alt="email me"> &nbsp; &nbsp;
+                    waltonjrwillie@gmail.com</a></span>
+                </div>
+                <div class="quike-links text-center">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="projects.html">Projects</a>
+                        </li>
+                        <li><a href="about.html">About Me</a></li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/will-walton-jr/"><img src="assets/dev imgs/LinkedIn Circled.png" alt="linkedin"></a>
+                    <a href="https://github.com/illwillgusto"><img src="assets/dev imgs/github (7).png" alt="github"></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+        `;
     }
 }
