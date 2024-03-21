@@ -190,7 +190,7 @@ margin: 0 auto 2rem ;
 color: #0D0F16;
 }
 .intro .my-name span{
-  color: #F26C4F;
+  color: #4687ff;
 }
 .first-section img{
   max-width: 30rem;
@@ -211,7 +211,7 @@ color: #0D0F16;
   font-size: 1.4rem;
   color: white;
   /* background: #F26C4F; */
-  background: linear-gradient(90deg, #F26C4F 0%, #F26C4F 81%);
+  background: linear-gradient(90deg, #4fabf2 0%, #134ea1 81%);
   border-radius: .2rem;
   padding: .6rem 2rem;
   cursor: pointer;
@@ -228,19 +228,19 @@ color: #0D0F16;
 
 @keyframes animatedGradient{
   0%{
-    background: linear-gradient(90deg, #660303c9 0%, #e02929c9 81%);
+    background: linear-gradient(90deg, rgb(1, 49, 79) 0%, rgb(79, 158, 242) 81%);
   }
   25%{
-    background: linear-gradient(90deg,  #660303da 0%, #e02929da 81%);
+    background: linear-gradient(90deg, rgb(1, 49, 79) 0%, rgb(79, 158, 242) 81%);
   }
   50%{
-    background: linear-gradient(90deg,  #660303ec 0%, #e02929ec 81%);
+    background: linear-gradient(90deg, rgb(1, 49, 79) 0%, rgb(79, 158, 242) 81%);
   }
   75%{
-    background: linear-gradient(90deg,  #660303ef 0%, #e02929ef 81%);
+    background: linear-gradient(90deg, rgb(1, 49, 79) 0%, rgb(79, 158, 242) 81%);
   }
   100%{
-    background: linear-gradient(90deg,  #660303 0%, #e02929 81%);
+    background: linear-gradient(90deg, rgb(1, 49, 79) 0%, rgb(79, 158, 242) 81%);
   }
 }
 
@@ -318,16 +318,16 @@ border-radius: 10px;
   color: #ececec;
   opacity: 0;
   transition: 0.7s;
-  background-color: #ff7777;
-  border: #F87474; 
+  background-color: #1f75f7;
+  border: #ffffff; 
 }
 
 .layer:hover a{
   opacity: 1;
 }
 .layer a:hover{
-  background-color: #f54343;
-  border: #F87474; 
+  background-color: #1ac323;
+  border: #ffffff; 
 }
 
 /* services */
@@ -510,7 +510,7 @@ border-radius: 10px;
   font-weight: 500;
   font-size: 1.4rem;
   color: white;
-  background: #F26C4F;
+  background: #245bf2;
   border-radius: .2rem;
   padding: 1.2rem 1.6rem;
   margin-right: 2rem;
@@ -519,7 +519,7 @@ border-radius: 10px;
 }
 
 .About-section .homeBtn:hover {
-  background: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%) !important; ; /* Add your desired gradient colors */
+  background: linear-gradient(90deg, rgb(1, 49, 79) 0%, rgb(79, 158, 242) 81%) !important; ; /* Add your desired gradient colors */
   color: white;
   font-weight: 500; 
 }
@@ -564,7 +564,7 @@ border-radius: 10px;
 /* form design */
 input, textarea, button[type="submit"]{
   border-radius: 20px;
-  background: #FEF4F2;
+  background: #f2f4fe;
   border: 1px solid rgba(0, 0, 0, 0.2);
 
 }
@@ -613,8 +613,8 @@ line-height: 41px;
 color: rgba(41, 41, 41, 0.5);
 }
 button[type="submit"] {
-  background: #F87474;
-  border: 1px solid #F87474;
+  background: #74b4f8;
+  border: 1px solid #5493ff;
   border-radius: 20px;
   font-family: 'Nunito';
   font-style: normal;
@@ -628,7 +628,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%) !important; ; /* Add your desired gradient colors */
+  background: linear-gradient(90deg, rgb(1, 49, 79) 0%, rgb(79, 158, 242) 81%) !important; ; /* Add your desired gradient colors */
   border: 1px solid #ffffff;
   color: rgb(255, 255, 255);
 }
@@ -645,7 +645,7 @@ footer{
   flex-wrap: wrap;
 }
 .footer .navbar-brand:hover{
-  color: #ff7777;
+  color: #0a8dff;
 }
 .footer div{
   width: 32%;
@@ -730,7 +730,7 @@ a{
     content: "";
     display: block;
     /* vertical-align: middle; */
-    border-bottom: solid 10px #EA5D5F;
+    border-bottom: solid 10px #3f91e9;
     border-left: solid 10px transparent;
     line-height: 0;
     border-right: solid 10px transparent;
@@ -825,9 +825,9 @@ a{
 
         .button {
             margin-top: 9px;
-            border: 1px solid #F26C4F;
+            border: 1px solid #1a56a4;
             background-color: white;
-            color: #F26C4F;
+            color: #124a9e;
             border-radius: 5px;
             padding: 8px 18px;
             cursor: pointer;
