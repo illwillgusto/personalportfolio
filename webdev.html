@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+  <link rel="manifest" href="./Favicon/site.webmanifest">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Web Dev Projects Display">
-  <meta name="author" content="Will Walton">
-  <link rel="stylesheet" type="text/css" href="assets/css/webdev.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="icon" type="image/x-icon" href="assets/img/profile 3d pic.png">
+  <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
-    <title>Will Walton | Portfolio</title>
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Satisfy&display=swap"
+    rel="stylesheet">
+  <!-- my css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- title -->
+  <title>Will Walton | Portfolio</title>
 </head>
 
 <body>
@@ -23,8 +30,27 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Will Walton</a>
+        <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active p-4" aria-current="page" href="index.html">Home</a>
+            </li>
+            <a class="nav-link p-4" aria-current="page" href="about.html">About</a>
+            </li>
+            <a class="nav-link p-4" aria-current="page" href="pricing.html">Pricing</a>
+          </li>
+          <a class="nav-link p-4" aria-current="page" href="projects.html">Projects</a>
+            </li>             
+          </ul>
+         <a href="cv/Willie Walton's Resume.pdf" download="Will Walton" class="my-cv">Download Resume</a>
+        </div>
       </div>
-    </nav>
+      </nav>
   </main-header>
 
   <!-- hero section -->
@@ -36,21 +62,21 @@
         <div class="col-md-6">
           <div class="intro">
             <p class="title">-INTRODUCTION</p>
-            <p class="hi">Hi There!👋</p>
+            <p class="hi">Hello There!👋</p>
             <h1 class="my-name">I'm <span>Will Walton</span></h1>
-            <p class="slogan">A front end developer with experience in web design and web development 
-              for 5 years now.</p>
+            <p class="slogun">I help create innovative and modern websites for all size businesses.</p>
 
-            <a href="#connectMe" class="homeBtn">Let’s create an awesome website !</a>
+            <a href="#connectMe" class="homeBtn">Let’s create an innovative experience. </a>
             <div class="social-media">
-              <a href="https://www.linkedin.com/in/will-walton-jr/"><img src="assets/dev imgs/LinkedIn Circled.png" alt="linkedin"></a>
-              <a href="https://github.com/illwillgusto"><img src="assets/dev imgs/GitHub (1).png" alt="github"></a>
+              <a href="https://www.linkedin.com/in/will-walton-jr/"><img src="./img/LinkedIn Circled.png" alt="linkedin"></a>
+              <a href="https://github.com/illwillgusto"><img src="./img/GitHub.png" alt="github"></a>
+
             </div>
           </div>
 
         </div>
         <div class="col-md-6 pb-0 img">
-          <img src="assets/dev imgs/profiledisplaypic.png" alt="" srcset="">
+          <img src="img/profiledisplaypic.png" alt="" srcset="">
         </div>
       </div>
 
@@ -63,40 +89,40 @@
       <p class="title">-PROJECTS</p>
       <div class="poject-section">
         <h2>FEATURED WORK</h2>
-        <p class="para">I love making websites that can grow big, finding useful solutions, and always learning to get better in the IT world.</p>
+        <p class="para">I love creating websites that can provide useful solutions, grow business awareness, and an insight into a business.</p>
       </div>
       <div class="project-grid">
         <div class="item1">
           <div class="layer">
-            <a href="https://github.com/Iamdivyak/education-site" target="_blank">GitHub</a> <!--open link in new tab-->
-            <a href="https://iamdivyak.github.io/education-site/" target="_blank">Live Web</a>
+            <a href="https://github.com/illwillgusto/chyfacebookingpage" target="_blank">GitHub</a> <!--open link in new tab-->
+            <a href="https://chyfacemakeup.com/" target="_blank">Live Web</a>
           </div>
         </div>
         <div class="item2">
           <div class="layer">
-            <a href="https://github.com/Iamdivyak/mistoreclone" target="_blank">GitHub</a>
-            <a href="https://mistoreclonesite.netlify.app//" target="_blank">Live Web</a>
+            <a href="https://github.com/illwillgusto/productLPproject1" target="_blank">GitHub</a>
+            <a href="https://yoursjuiceslandingpage.netlify.app/" target="_blank">Live Web</a>
           </div>
 
         </div>
         <div class="item3">
           <div class="layer">
-            <a href="https://github.com/Iamdivyak/QuizGame" target="_blank">GitHub</a>
-            <a href="https://iamdivyak.github.io/QuizGame/" target="_blank">Live Web</a>
+            <a href="https://github.com/illwillgusto/portfoliotemplate" target="_blank">GitHub</a>
+            <a href="https://resplendent-monstera-15bc57.netlify.app/" target="_blank">Live Web</a>
           </div>
 
         </div>
         <div class="item4">
           <div class="layer">
-            <a href="https://github.com/Iamdivyak/Digital-Business-Card" target="_blank">GitHub</a>
-            <a href="https://divya-business-card.netlify.app//" target="_blank">Live Web</a>
+            <a href="https://github.com/illwillgusto/loginproject1" target="_blank">GitHub</a>
+            <a href="https://funballloginlp.netlify.app/" target="_blank">Live Web</a>
           </div>
 
         </div>
         <div class="item5">
           <div class="layer">
-            <a href="https://github.com/Iamdivyak/E-commerce-website" target="_blank">GitHub</a>
-            <a href="https://iamdivyak.github.io/E-commerce-website/" target="_blank">Live Web</a>
+            <a href="https://github.com/illwillgusto/will-walton-rf-ui" target="_blank">GitHub</a>
+            <a href="https://cool-belekoy-56166e.netlify.app/" target="_blank">Live Web</a>
           </div>
 
         </div>
@@ -111,13 +137,13 @@
       <p class="title">-SERVICES</p>
       <div class="poject-section">
         <h2>SERVICES I PROVIDE</h2>
-        <p class="para">The goal is not to build a website. The goal is to create an experience.</p>
+        <p class="para">The goal is not to build a website. The goal is to provide an experience.</p>
       </div>
       <div class="services">
 
         <div class="service-section">
           <div class="service">
-            <img src="assets/dev imgs/uiux.png" alt="ui/ux design">
+            <img src="./img/uiux.png" alt="ui/ux design">
             <h3>UI/UX Design</h3>
             <p>I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and
               usable products which aid business growth.</p>
@@ -126,7 +152,7 @@
         </div>
         <div class="service-section">
           <div class="service">
-            <img src="assets/dev imgs/Web Design.png" alt="ui/ux design">
+            <img src="./img/Web Design.png" alt="ui/ux design">
             <h3>Web Development</h3>
             <p>I use various web technologies to develop attractive websites which converts visitors to customers. I
               develop creative and responsive website layouts.</p>
@@ -135,14 +161,13 @@
         </div>
         <div class="service-section">
           <div class="service">
-            <img src="assets/dev imgs/WordPress.png" alt="ui/ux design">
+            <img src="./img/WordPress.png" alt="ui/ux design">
             <h3>Wordpress</h3>
             <p>WordPress is a free and open-source content management system written in PHP and paired with a MySQL or
               MariaDB database with supported HTTPs.
             <p>
           </div>
         </div>
-        
 
       </div>
     </div>
@@ -151,81 +176,81 @@
 
   <div class="section">
     <div class="container-fluid">
-      <p class="title"></p>
+      <p class="title">-SKILLS</p>
       <div class="skill-section">
-        <h2>TECH STACK EXPERTISE</h2>
-        <p class="para">Here's an overview of some of the languages, frameworks, libraries and other softwares I am proficient in.</p>
+        <h2>AREA OF EXPERTISE</h2>
+        <p class="para">Here are some of the many software, program languages, and technologies equipped in my tech stack.</p>
       </div>
       <div class="skills">
         <div class="skill border1 border_right">
           <div class="items">
-            <img src="assets/dev imgs/html.png" alt="">
+            <img src="./img/html.png" alt="">
             <p>HTML</p>
           </div>
         </div>
         <div class="skill border1">
           <div class="items">
-            <img src="assets/dev imgs/css.png" alt="">
+            <img src="./img/css.png" alt="">
             <p>CSS</p>
           </div>
         </div>
         <div class="skill border1 border3">
           <div class="items">
-            <img src="assets/dev imgs/javascript (1).png" alt="">
+            <img src="./img/javascript (1).png" alt="">
             <p>JAVASCRIPT</p>
           </div>
         </div>
         <div class="skill border1">
           <div class="items">
-            <img src="assets/dev imgs/bootstrap 1.png" alt="">
+            <img src="./img/Bootstrap 1.png" alt="">
             <p>BOOTSTRAP</p>
           </div>
         </div>
         <div class="skill border1 border_right">
           <div class="items">
-            <img src="assets/dev imgs/node-js.png" alt="">
+            <img src="./img/node-js.png" alt="">
             <p>Node.js</p>
           </div>
         </div>
         <div class="skill border1">
           <div class="items">
-            <img src="assets/dev imgs/react (2).png" alt="">
+            <img src="./img/react (2).png" alt="">
             <p>React</p>
           </div>
         </div>
         <div class="skill border1 border_right border7">
           <div class="items">
-            <img src="assets/dev imgs/git (2).png" alt="">
+            <img src="./img/git (2).png" alt="">
             <p>Git</p>
           </div>
         </div>
         <div class="skill border1">
           <div class="items">
-            <img src="assets/dev imgs/github (7).png" alt="">
+            <img src="./img/github (7).png" alt="">
             <p>GitHub</p>
           </div>
         </div>
         <div class="skill border_bottom borderSL">
           <div class="items">
-            <img src="assets/dev imgs/adobe-xd.png" alt="">
+            <img src="./img/adobe-xd.png" alt="">
             <p>Adobe XD</p>
           </div>
         </div>
         <div class="skill border2 border10">
           <div class="items">
-            <img src="assets/dev imgs/photoshop.png" alt="">
+            <img src="./img/photoshop.png" alt="">
             <p>Photoshop</p>
           </div>
         </div>
         <div class="skill border_right">
           <div class="items">
-            <img src="assets/dev imgs/icons8-figma-512.png" alt="">
+            <img src="./img/icons8-figma-512.png" alt="">
             <p>Figma</p>
           </div>
         </div>
         <div class="skill">
           <div class="items">
-            <img src="assets/dev imgs/WordPress1.png" alt="">
+            <img src="./img/WordPress.png" alt="">
             <p>WordPress</p>
           </div>
         </div>
@@ -237,7 +262,7 @@
     <div class="container-fluid bg rounded text-center pb-5 pos-relative">
       <img src="./img/Rocket1.png" alt="">
       <h1 class="custom-h1">HAVE A PROJECT IN MIND?</h1>
-      <p class="para p-4">Turn your dream website into reality with us. Let's get started!</p>
+      <p class="para p-4">Turn your dream website into reality with me. Let's get started!</p>
       
 
 
@@ -255,22 +280,23 @@
         <div class="row img-sec">
           <div class="col-md-6">
             <p class="para">
-              I'm Will Walton, a junior Web Designer with front-end development skills. I'm enthusiastic about using my varied experiences to solve complex problems and craft enjoyable user experiences. 
-              My expertise lies in web development, front-end web development, and UI design.
+              I'm Will Walton, a junior Web Designer with front-end development skills. I'm enthusiastic about using my varied experiences to solve complex problems and craft enjoyable user experiences. My expertise lies in web development, front-end web development, UI design, and SEO analytics.
               <br> <br>
-              I develop websites with HTML, CSS and JavaScript. I have top skills in using design softwares like Figma,
-              Adobe XD, PhotoShop and Illustrator.
+              I develop websites with HTML, CSS and JavaScript within VS Code and Dreamweaver. I have top skills in using design softwares like Figma,
+              Adobe XD, and PhotoShop.
               <br> <br>
               
+
             </p>
             <br>
+            <a href="" class="homeBtn">HIRE ME</a>
 
-            <a href="assets/docs/Willie Walton's Resume.pdf" download="WillWalton" class="my-cv">Download CV</a>
+            <a href="cv/Willie Walton's Resume.pdf" download="WillWalton" class="my-cv">Download CV</a>
 
           </div>
           <div class="col-md-6 img-sec text-center">
-            <img src="assets/img/web dev projects picture.png" class="img-fluid"
-              alt="guy working on code at his desktop with virtual elements around him">
+            <img src="./img/aboutimg.png" class="img-fluid"
+              alt="Girl is working on laptop at a remote job.png">
           </div>
         </div>
       </div>
@@ -287,13 +313,14 @@
           <div class="col-md-6">
 
             <div class="contact">
-              <a href="mailto:waltonjrwillie@gmail.com" class="email">
-                <img src="assets/dev imgs/email.png" alt="email me"> &nbsp; &nbsp;
-                waltonjrwillie@gmail.com</a>
+              <a href="mailto:kumaridivya2796@gmail.com" class="email">
+                <img src="./img/email.png" alt="email me"> &nbsp; &nbsp;
+                willw@gwholds.com</a>
             </div>
             <div class="social-media">
-              <a href="https://www.linkedin.com/in/will-walton-jr/"><img src="assets/dev imgs/LinkedIn Circled.png" alt="linkedin"></a>
-              <a href="https://github.com/illwillgusto"><img src="assets/dev imgs/github (7).png" alt="github"></a>
+              <a href="https://www.linkedin.com/in/will-walton-jr/"><img src="./img/LinkedIn Circled.png" alt="linkedin"></a>
+              <a href="https://github.com/illwillgusto"><img src="./img/github (7).png" alt="github"></a>
+
             </div>
 
           </div>
@@ -315,13 +342,13 @@
 
   <!-- footer -->
   <main-footer></main-footer>
-  <div class="footer-bottom"><span id="year"></span> © Will Walton, Front End Developer.</div>
+  <div class="footer-bottom"><span id="year"></span> © Portfolio Pvt. Ltd. All Rights Reserved.</div>
 
 
   <button class="back-to-top" type="button"></button>
 
 <!--form script-->
-<script src="form.js"></script>
+<script src="./js/form.js"></script>
 
   <!-- jquiry -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -330,7 +357,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <!--custom js  -->
-  <script src="frontendscript.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
